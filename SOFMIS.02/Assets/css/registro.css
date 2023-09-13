@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #362fff, #34ecf9);
+}
+.fondo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4rem;
+}
+.banner img{
+    width: 500px;
+}
+.derecha{
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 5rem;
+    margin-bottom: auto;
+}
+.inicio{
+    width: 325px;
+    margin: 3rem;
+}
+.formulario h1{
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 60px;
+    color: #303030;
+}
+.formulario label{
+    margin-left: 1rem;
+    padding: 1rem;
+    color: #707070;
+    margin-bottom: 5rem;
+}
+.formulario .campos{
+    display: flex;
+    align-items: center;
+}
+.formulario input{
+    color: #303030;
+    padding: 5px;
+    margin: 3px;
+    margin-left: 9px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    width: 100%;
+}
+.formulario select{
+    width: 100%;
+    border-radius: 8px;
+    height: 30px;
+    margin: 5px;
+    background: linear-gradient(to right, #362fff, #34ecf9);
+    color: #fff;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formulario select option{
+    color: black;
+}
+.formulario input[type="text"]::placeholder{
+    color: #303030;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+}
+.formulario h5{
+    text-align: right;
+    color: #707070;
+}
+.formulario hr{
+    border: none;
+    border-top: 3px solid #34ecf9;
+    margin: 0;
+}
+.formulario span{
+    color: #34ecf9;
+}
+.formulario button{
+    height: 50px;
+    width: 325px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 1rem;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    background: linear-gradient(to right, #362fff, #34ecf9);
+    cursor: pointer;
+}
+.formulario .logo{
+    border-radius: 15px;
+    width: 100px;
+}
+.formulario h5 a{
+    text-decoration: none;
+    color: #362fff;
+    margin-left: 10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
